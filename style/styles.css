@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --blue: #3e84c6;
+  --secondary: #777;
+  --lighter: rgba(205, 165, 209, 0.6);
+  --black: #000;
+}
+
+* {
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--lighter);
+}
+
+body {
+  background-color: rgb(27, 25, 25);
+  color: var(--lighter);
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  margin-left: 0.6rem;
+}
+
+h1 {
+  font-variant: small-caps;
+  font-size: 2rem;
+  line-height: 0.2rem;
+  color: var(--blue);
+}
+
+/* ABOUT */
+.about {
+  display: grid;
+  grid-template-areas: "name" "contact";
+}
+
+.about__name {
+  font-weight: 900;
+  font-size: 3rem;
+  margin-bottom: 0;
+  grid-area: name;
+  color: var(--blue);
+}
+
+
+.about__contact {
+  font-size: 1.22rem;
+  grid-area: contact;
+  color: var(--blue);
+}
+
+/* Mission */
+.mission {
+    color: var(--lighter);
+}
+
+/* Skills */
+.skills {
+    color: var(--lighter);
+}
+
+/* Experience */
+.experience {
+  color: var(--lighter);
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{.Name}} | {{.Title}}</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/styles.css" />
+    </head>
+    <body>
+        <main>
+            <h1>{{.Name}}</h1>
+            <hr>
+            <p>During the COVID-19 lockdown, I am turning to learning new skills to pass time. 
+                I've finally decided to learn to code. So I started taking some programming 
+                and database course (GO, SQL, etc..) on UDEMY. After finished, 
+                I want to work towards building something specific, such as a website.
+                and here are some things I've made:
+            </p>
+                 
+                {{ template "skills.html" . }}
+                {{ template "experience.html" . }}
+                {{ template "about.html" . }} 
+                        
+        </main>
+    </body>
+</html>

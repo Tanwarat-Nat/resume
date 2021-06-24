@@ -1,0 +1,20 @@
+{
+    "Name": "Tanwarat Natsupukpong",
+    "Title": "Resume",
+    "Email": "tanwarat.nat@gmail.com",
+    "Phone": "0852655778",
+    "Location": "Bang Wa, Bangkok",
+    "Github": "https://github.com/Tanwarat-Nat",
+    "Skills": [
+            "Frontend : HTML | CSS | Javascript",
+            "Backend : Golang",
+            "Database : Postgres",
+            "Version Control : Git"
+        ],
+    "Experience": [
+        "Build a Simple REST API with Go and Postgres",
+        "Create Resume with Go template",
+        "Build a Simple web app - TODOAPP",
+        "coming soon..."
+    ]
+}
